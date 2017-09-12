@@ -1,7 +1,10 @@
 class PagesController < ApplicationController
+
   def index
   end
-  
+
+pages
+
   def profile
   end
 
