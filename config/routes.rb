@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   
-<<<<<<< HEAD
   devise_for :users, :controllers => { registrations: 'registrations' }
   root to: 'pages#index'
   get 'pages/vacation'
@@ -16,8 +15,4 @@ Rails.application.routes.draw do
   get 'pages/edit_commercial'
   get 'pages/edit_residential'
   get 'pages/edit_vacation'
-
-=======
-  root to: 'pages#index'
->>>>>>> pages
 end
