@@ -1,3 +1,4 @@
+ <% if signed_in %>
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container" align="center">
   <ul class="nav justify-content-center">
@@ -7,4 +8,10 @@
       	<li><%= link_to "Edit Vacation Properties", pages_vacation_path %></li>
  </button>
 </ul>
-</footer>
+</nav>
+
+<% else %>
+You are not permitted to view this page.
+<a href="http://thorntonpmc.com">HOME</a>
+
+<% end %>

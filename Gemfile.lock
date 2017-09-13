@@ -39,6 +39,7 @@ GEM
     arel (6.0.4)
     autoprefixer-rails (7.1.4)
       execjs
+    babosa (1.0.2)
     bcrypt (3.1.11)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
@@ -47,8 +48,13 @@ GEM
       sass (>= 3.3.4)
     bootstrap-sass-extras (0.0.7)
       rails (>= 3.1.0)
+    bootstrap-select-rails (1.12.1)
     builder (3.2.3)
     byebug (9.1.0)
+    c80_active_record_union (0.1.0)
+      activerecord (>= 4.0)
+    c80_estate (0.1.0.39)
+      activesupport (>= 3.0.0)
     coffee-rails (4.1.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.1.x)
@@ -69,6 +75,8 @@ GEM
     ffi (1.9.18)
     font-awesome-sass (4.7.0)
       sass (>= 3.2)
+    friendly_id (5.2.1)
+      activerecord (>= 4.0.0)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     i18n (0.8.6)
@@ -183,12 +191,17 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  babosa
   bootstrap-sass (~> 3.3, >= 3.3.6)
   bootstrap-sass-extras (~> 0.0.2)
+  bootstrap-select-rails
   byebug
+  c80_active_record_union
+  c80_estate (~> 0.1.0.39)
   coffee-rails (~> 4.1.0)
   devise (~> 4.2)
   font-awesome-sass (~> 4.6, >= 4.6.2)
+  friendly_id
   jbuilder (~> 2.0)
   jquery-rails
   pg (~> 0.21.0)

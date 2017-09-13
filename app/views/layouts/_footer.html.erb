@@ -56,9 +56,10 @@
 <ul class="nav justify-content-center">
   <p class="footer links">
       	<li><%= link_to "Admin Log in", new_user_session_path %></li>
-      	<li><%= link_to "Edit Commercial Properties", pages_commercial_path %></li>
-      	<li><%= link_to "Edit Residential Properties", pages_residential_path %></li>
-      	<li><%= link_to "Edit Vacation Properties", pages_vacation_path %></li>
+      	<li><%= link_to "My Profile", pages_profile_path %></li>
+      	<li><%= link_to "Edit Commercial Properties", pages_edit_commercial_path %></li>
+      	<li><%= link_to "Edit Residential Properties", pages_edit_residential_path %></li>
+      	<li><%= link_to "Edit Vacation Properties", pages_edit_vacation_path %></li>
  				<li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
 </p>
 </ul>
