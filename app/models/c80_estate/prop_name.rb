@@ -1,0 +1,1 @@
+Class C80Estate::PropName < ActiveRecord::Base

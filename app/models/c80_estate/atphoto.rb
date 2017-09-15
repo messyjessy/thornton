@@ -1,0 +1,1 @@
+Class C80Estate::Atphoto < ActiveRecord::Base

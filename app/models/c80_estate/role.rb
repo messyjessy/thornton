@@ -1,0 +1,1 @@
+Class C80Estate::Role < ActiveRecord::Base

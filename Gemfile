@@ -33,6 +33,8 @@ gem 'friendly_id'
 gem 'babosa'
 gem 'bootstrap-select-rails'
 gem 'c80_active_record_union'
+gem 'bundler', '~> 1.15', '>= 1.15.4'
+gem 'rake', '~> 12.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
